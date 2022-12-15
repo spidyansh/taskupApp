@@ -17,6 +17,7 @@ function App() {
     <>
       <Header />
       <CreateNote passNote={addNote} />
+
       {addItem.map((val, index) => {
         return (
           <Note
