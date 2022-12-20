@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Note from "./components/Note";
 
 function App() {
+  
   const [addItem, setaddItem] = useState([]);
 
   const addNote = (note) => {
